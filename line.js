@@ -74,7 +74,6 @@ class Line {
         return [x1, y1, x2, y2];
     }
     show_segment() {
-        //stroke(255);
         line(this.x1, this.y1, this.x2, this.y2);
     }
     show_ray() {
@@ -101,8 +100,6 @@ class Line {
         let y1 = this.perp_slope*x1 + this.bisect_intersept;
         let x2 = 2*W;
         let y2 = this.perp_slope*x2 + this.bisect_intersept;
-
-        //stroke(255);
         line(x1, y1, x2, y2);
     }
     show_tangent() {
@@ -110,8 +107,6 @@ class Line {
         let y1 = this.perp_slope*x1 + this.tangent_intercept;
         let x2 = 2*W;
         let y2 = this.perp_slope*x2 + this.tangent_intercept;
-
-        //stroke(255);
         line(x1, y1, x2, y2);
     }
 }
