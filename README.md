@@ -4,6 +4,8 @@ So I first took a video of myself walking around, then ran a python body trackin
 
 Wireframe.js contains the collection of lists of body joint positions for each frame in the animation.
 
+Connections.js contains all of the connections between the joints in the human wire frame. 
+
 ![main](/Screenshots/poincare_disk.png)
 # Hyberbolic Projection of Human Wire Frame
 
