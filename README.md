@@ -6,6 +6,8 @@ Wireframe.js contains the collection of lists of body joint positions for each f
 
 Connections.js contains all of the connections between the joints in the human wire frame. 
 
+line.js and disc.js contain classes which handle the drawing of the lines of the wireframe, and of the hyperbolic transformation of the wireframe.
+
 ![main](/Screenshots/poincare_disk.png)
 # Hyberbolic Projection of Human Wire Frame
 
