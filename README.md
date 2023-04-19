@@ -9,5 +9,5 @@ Connections.js contains all of the connections between the joints in the human w
 line.js and disc.js contain classes which handle the drawing of the lines of the wireframe, and of the hyperbolic transformation of the wireframe.
 
 ![main](/Screenshots/poincare_disk.png)
-# Hyberbolic Projection of Human Wire Frame
+
 
